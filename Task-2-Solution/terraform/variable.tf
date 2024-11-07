@@ -29,7 +29,7 @@ variable "ec2_type" {
   default = "t2.micro"
 }
 variable "ec2_key" {
-  default = "anahtarkey" # change here
+  default = "techpro" # change here
 }
 
 variable "num_of_instance" {
