@@ -4,7 +4,7 @@ metadata:
   annotations:
     kompose.cmd: kompose convert -f docker-compose.yml
     kompose.image-pull-secret: regcred
-    kompose.service.expose: carrental.samdevops.link
+    kompose.service.expose: carrental.yagmurana.info
     kompose.service.nodeport.port: "30001"
     kompose.service.type: nodeport
     kompose.version: 1.33.0 (3ce457399)
@@ -13,7 +13,7 @@ metadata:
   name: ui
 spec:
   rules:
-    - host: carrental.samdevops.link
+    - host: carrental.yagmurana.info
       http:
         paths:
           - backend:
