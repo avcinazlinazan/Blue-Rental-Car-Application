@@ -7,12 +7,12 @@ services:
       - app
       - db
     labels: 
-      kompose.service.expose: "carrental.yagmurana.info "
+      kompose.service.expose: "carrental.samdevops.link"
       kompose.service.type: "nodeport"   
       kompose.service.nodeport.port: "30001"
       kompose.image-pull-secret: "regcred"
     environment:
-      REACT_APP_API_URL: http://carrental.yagmurana.info:8080/car-rental/api/
+      REACT_APP_API_URL: http://carrental.samdevops.link:8080/car-rental/api/
     ports:
       - "3000:3000"
     networks:
